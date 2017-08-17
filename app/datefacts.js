@@ -14,7 +14,9 @@ console.log("It is " + (chalk.cyan((hours*60*60) + (minutes*60) + (seconds))) + 
 if (currentSeconds === true){
   console.log("It " + (chalk.green("is")) + " during Daylight Savings Time.")
 
-} else {(console.log("It is not during Daylight Savings Time."))
+} else {
+
+  (console.log("It is not during Daylight Savings Time."))
 
 }
 
